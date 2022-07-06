@@ -18,4 +18,11 @@ def hello():
                     if i ==0: 
                         print(f"First I eat {my_1st[0]}")
                         else:
-                            print(f"Next I eat{my_1st[i]")
+                            print(f"Next I eat{my_1st[i]}")
+
+        hello()
+        print(pack("a","b","c"))
+        print(pack(1,2,3))
+        eat_lunch([])
+        eat_lunch(["sandwich"])
+        eat_lunch(["apple","banana","sandwich","cookie"])
